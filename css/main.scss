@@ -51,8 +51,9 @@ main {
   .grid-child {
     padding: 5px;
     background-color: pink;
-    grid-column: auto !important;
-    grid-row: auto !important;
     border-radius: 10px;
+      &:nth-child(n) {
+      grid-column: auto; /*to make the grid span only acc o the content*/
+      grid-row: auto; 
   }
 }
