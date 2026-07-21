@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: hsl(0, 0%, 96%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +33,7 @@ main {
 .grid-child {
   border-radius: 10px;
   padding: 1.8rem;
+  box-shadow: 40px 65px 35px 5px hsl(230, 7%, 83%);
 }
 .grid-child:nth-child(1) {
   background-color: hsl(263, 55%, 52%);
@@ -44,22 +45,33 @@ main {
   color: hsl(214, 17%, 92%);
 }
 .grid-child:nth-child(2) {
-  background-color: hsl(217, 19%, 35%);
+  background-color: hsl(219, 19%, 35%);
   color: hsl(214, 17%, 92%);
 }
 .grid-child:nth-child(5) {
   grid-row: 1/-1;
   background-color: white;
+  color: hsl(219, 19%, 35%);
+}
+.grid-child:nth-child(5) .user-review {
+  color: hsl(224, 10%, 45%);
 }
 .grid-child:nth-child(3) {
   grid-row: 2;
   background-color: white;
+  color: hsl(219, 19%, 35%);
+}
+.grid-child:nth-child(3) .user-review {
+  color: hsl(224, 10%, 45%);
 }
 .grid-child:nth-child(4) {
   background-color: hsl(219, 29%, 14%);
   grid-column: 2/-2;
   grid-row: 2;
   color: hsl(214, 17%, 92%);
+}
+.grid-child:nth-child(4) .user-review {
+  color: hsl(0, 0%, 81%);
 }
 
 .profile {
@@ -99,19 +111,26 @@ main {
 
 .desc {
   font-size: clamp(10px, 5vw, 13px);
-  line-height: 1.2rem;
+  line-height: 1.15rem;
+  margin: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
+  main {
+    min-height: 100dvh;
+    margin: 10rem 2rem 0 2rem;
+  }
   .grid-parent {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    justify-items: start;
-    gap: 15px;
+    justify-items: stretch;
+    gap: 20px;
     border-radius: 10px;
+    height: -moz-max-content;
+    height: max-content;
   }
   .grid-child {
-    padding: 5px;
+    padding: 2rem;
     background-color: pink;
     border-radius: 10px;
   }
@@ -119,5 +138,6 @@ main {
     grid-column: auto;
     /*to make the grid span only according to the content*/
     grid-row: auto;
+    background-image: none;
   }
 }/*# sourceMappingURL=main.css.map */
