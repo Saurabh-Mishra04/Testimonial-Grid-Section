@@ -1,46 +1,33 @@
-# Frontend Mentor - Testimonials grid section solution
+# Frontend Mentor - Testimonials Grid Section
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). I have migrated this repository into my frontend monorepo, but I wanted to preserve this README to showcase my CSS Grid abilities.
 
-## Table of contents
+## Project Overview
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
-## Overview
-
-### Screenshot
-
-![](./screenshot.jpg)
-
+This project is a modern, responsive testimonials component arranged in a dynamic grid layout. I am incredibly happy with the final result, as it perfectly demonstrates how to handle complex layouts cleanly. It serves as an excellent practical exercise for anyone looking to master CSS Grid properties and responsive design.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [View Live Site](https://testimonial-grid-ten-rho.vercel.app/)
+- Original Code Repository: [GitHub Repo](https://github.com/Saurabh-Mishra04/Testimonial-Grid-Section/tree/main)
 
-## My process
+## Development Process
 
-### Built with
+### Built With
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS Custom Properties (Variables)
+- Flexbox (for alignment)
+- CSS Grid (for main layout structure)
 - Desktop-first workflow
 
-### What I learned
+### Key Takeaways
 
-This project is really good to learn css grid and its properties.
+Building this section was highly rewarding. It helped me solidify my understanding of explicit grid placement, tracking tracks, and building asymmetric layouts that adapt smoothly across different screen dimensions.
 
-### Useful resources
-- CSS GRID BY CoderCoder on YT was really helpful for me so check it out if you are new to css grid layout.
+### Useful Resources
+
+- **CoderCoder on YouTube**: Their CSS Grid tutorials were immensely helpful for understanding grid placement logic. Highly recommended if you are new to grid layouts.
 
 ## Author
 
